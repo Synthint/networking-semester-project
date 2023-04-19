@@ -18,3 +18,13 @@ Q: What letter represents 50 in Roman numerals?~L~F~X~Z
 Q: What is the hottest planet in our solar system?~Venus~The Sun~Mars~Jupiter
 Q: How many amendments are there to the US constitution?~27~24~30~10
 Q: How many wives did Henry VIII have?~6~5~7~8
+Q: What is a cat with extra toes called?~Polydactyl~Pterodactyl~Fred~Ambidextrous
+Q: What is peanut butter made from?~Peanuts~Hazelnuts~Butter~It's Subjective
+Q: How many calories in a roll of smarties?~25~100~2~30
+Q: Who said "Too many good docs are getting out of the business. Too many OB-GYNs aren't able to practice their love with women all across this country"?~George W. Bush~Donald Trump~Joe Biden~Bill Clinton
+Q: Who said "I've now been in 57 states — I think one left to go."?~Barack Obama~Joe Biden~Donald Trump~Abraham Lincoln
+Q: What country are turkeys native to?~The Americas~Turkey~Afghanistan~Europe
+Q: Who said "They don't call me Tyrannosaurus Sex for nothing."?~Ted Kennedy~Bill Clinton~Barack Obama~Donald Trump
+Q: Which programming language has 'Yeet' as a keyword?~Rust~Go~C~Haskell
+Q: What does GNU stand for?~GNU's Not Unix~Grand Nostrils United~Nothing~Goats Not Ugly
+Q: What is a textile?~Woven Fabric~Part of the NIST 80085 Encoding Standard~A Company from texas that makes tile~A subspecies of crocodile native to texas

@@ -3,7 +3,6 @@ import java.io.*;
 import java.net.*;
 import java.util.Arrays;
 import java.util.Collections;
-
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -11,7 +10,6 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
 import java.awt.Dimension;
@@ -20,7 +18,7 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Client implements ActionListener{
+public class Client implements ActionListener {
 	// initialize socket and input output streams
 	ServerConnection server = null;
 	private BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
@@ -136,7 +134,7 @@ public class Client implements ActionListener{
 			ser.start();
 			
 			try {
-				Thread.sleep(50);
+				Thread.sleep(250);
 				server = new ServerConnection(new Socket("127.0.0.1", Integer.parseInt(portNo.getText())));
 			}
 			catch (Exception u) {
@@ -158,8 +156,6 @@ public class Client implements ActionListener{
 			
 		}
     }
-
-
 
 	private void GUILoadScores(String sc) {
 		String[] scores = sc.split("~");
@@ -254,7 +250,6 @@ public class Client implements ActionListener{
 		waitLabel.setFont(font1);
 		waitPanel.add(waitLabel);
 		
-
 		cards.add(connectionPanel, "Connect");
 		cards.add(questionPanel, "Question");
 		cards.add(answerValidPanel, "Answer");
@@ -269,8 +264,6 @@ public class Client implements ActionListener{
 		frame.add(playerName, BorderLayout.NORTH);
 		frame.add(cards, BorderLayout.CENTER);
 		
-
         frame.setVisible(true);
 	}
-
 }
